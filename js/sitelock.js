@@ -3,6 +3,7 @@ var allowedDomains = [
   "https://platformerdotio.netlify.app",
   "https://platformerdotio.onrender.com",
   "https://classroomrelay.pages.dev",
+  "https://reese-eats-tacos.vercel.app",
 ];
 
 var referringUrl = document.referrer;
