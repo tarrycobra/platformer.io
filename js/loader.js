@@ -70,6 +70,10 @@ if (gameToLoad) {
     gameframe.src = 'https://nearpod-currentlyconnectedtolesson.onrender.com/assets/yohoho/index.html';
     gamename.textContent = 'Yohoho.io';
     gameimage.src = '/images/yohohoio.avif';
+  } else if (gameToLoad === 'dadish-3') {
+    gameframe.src = 'https://dadish3.netlify.app/';
+    gamename.textContent = 'Dadish 3';
+    gameimage.src = '/images/dadish3.avif';
   } else {
     const imageName = gameToLoad.replace(/-/g, '');
     const imageSrcPng = `/images/${imageName}.png`;
@@ -93,7 +97,7 @@ if (gameToLoad) {
       const title = words.map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 
       gamename.textContent = title;
-      gameframe.src = `https://smartfoloolol.pages.dev/${gameToLoad}`;
+      gameframe.src = `https://helpful-lebkuchen-429031.netlify.app/${gameToLoad}`;
 
       gameframe.style.display = 'none';
 
