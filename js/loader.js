@@ -74,6 +74,14 @@ if (gameToLoad) {
     gameframe.src = 'https://dadish3.netlify.app/';
     gamename.textContent = 'Dadish 3';
     gameimage.src = '/images/dadish3.avif';
+  } else if (gameToLoad === 'level-devil') {
+    gameframe.src = 'https://smartfoloosanta.pages.dev/level-devil';
+    gamename.textContent = 'Dadish 3';
+    gameimage.src = '/images/leveldevil.avif';
+  } else if (gameToLoad === 'blumgi-dragon') {
+    gameframe.src = 'https://smartfoloo-blumgi-dragon.netlify.app';
+    gamename.textContent = 'Dadish 3';
+    gameimage.src = '/images/blumgidragon.avif';
   } else {
     const imageName = gameToLoad.replace(/-/g, '');
     const imageSrcPng = `/images/${imageName}.png`;
@@ -97,7 +105,7 @@ if (gameToLoad) {
       const title = words.map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 
       gamename.textContent = title;
-      gameframe.src = `https://helpful-lebkuchen-429031.netlify.app/${gameToLoad}`;
+      gameframe.src = `https://smartfoloosanta.pages.dev/${gameToLoad}`;
 
       gameframe.style.display = 'none';
 
